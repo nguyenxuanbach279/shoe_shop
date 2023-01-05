@@ -1,0 +1,75 @@
+.headerContainer {
+    display: flex;
+    height: 120px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.logoBox {
+    margin: 0 80px;
+}
+
+.logoImg {
+    width: 100%;
+    height: 100%;
+}
+
+.searchBox {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.inputBox {
+    width: 100%;
+    height: 48px;
+    font-size: 18px;
+    padding: 6px 106px 6px 6px;
+    border-color: #2d2d2d;
+    border-radius: 5px;
+}
+
+.searchButtonBox {
+    width: 100px;
+    height: 45px;
+    position: absolute;
+    right: 1px;
+    top: 17px;
+    border-left: 2px solid #2d2d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    background-color: #2d2d2d;
+    color: white;
+}
+
+.cartBox {
+    margin-left: 80px;
+    width: 100px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartIcon {
+    font-size: 36px;
+    color: #2d2d2d;
+}
+
+.quantityProductBox {
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
